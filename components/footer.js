@@ -26,10 +26,21 @@ const NavBarBot = () =>(
    font-size: 1em;
    }
    #twitter{
-       font-size: 1.5em!important;
+       font-size: 1.5em;
    }
    #github{
-       font-size: 1.5em!important;
+       font-size: 1.5em;
+   }
+   @media only and screen(max-width: 400px){
+    a{
+       font-size: .5em;
+       }
+       #twitter{
+           font-size: 1em!important;
+       }
+       #github{
+           font-size: 1em!important;
+       }
    }
   `}</style>
   </div>
