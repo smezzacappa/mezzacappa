@@ -49,7 +49,7 @@ const About = () => (
         </div>
         <div className="card">
           <h3>I am:</h3>
-          <p>A Dog Person.</p>
+          <p>Dog Person.</p>
         </div>
         <div className="card">
           <h3>I am:</h3>
