@@ -71,6 +71,9 @@ const About = () => (
     background-size: cover;
     background-attachment: fixed;
        }
+       .container{
+        margin-bottom:2em!important;
+       }
       .hero {
         width: 100%;
         color: #333;
@@ -141,6 +144,14 @@ const About = () => (
         //   margin: 20px;
           width:20%;
           text-align: center;
+      }
+      @media only screen and (max-width:775px){
+        .hero{
+          padding-bottom: 2em!important;
+        }
+        .card{
+          margin-bottom:1.5em!important;
+        }
       }
     `}</style>
   </div>
