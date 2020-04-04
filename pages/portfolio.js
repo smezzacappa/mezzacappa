@@ -85,11 +85,16 @@ const Portfolio = () => (
         padding-top: 80px;
         line-height: 1.15;
         font-size: 56px;
-        
+        font-weight: 700;
       }
       .title,
       .description {
         text-align: center;
+      }
+      code{
+        color: white;
+        text-shadow: 0px 0px 8px black;
+
       }
       .row {
         max-width: 880px;
@@ -107,6 +112,7 @@ const Portfolio = () => (
         border: 1px solid #9b9b9b;
         border-radius: 5px;
         background: rgba(224, 224, 224, .5) ;
+        box-shadow: 0px 0px 5px black;
         
       }
       .card:hover {

@@ -74,9 +74,11 @@ const About = () => (
         width: 100%;
         color: #333;
         letter-spacing: 2px;
+        text-shadow: 0px 0px 8px white;
       }
       .hero p {
         font-size: 1.5em;
+        
       }
       .title {
         margin: 0;
@@ -84,12 +86,18 @@ const About = () => (
         padding-top: 80px;
         line-height: 1.15;
         font-size: 56px;
-        
+        font-weight: 700;
       }
       .title,
       .description {
         text-align: center;
-        
+      }
+      
+      .description{
+        text-shadow: 0px 0px 8px black;
+      }
+      code{
+        color:white;
       }
       .row {
         max-width: 880px;
@@ -107,6 +115,7 @@ const About = () => (
         border: 1px solid #9b9b9b;
         border-radius: 5px;
         background: rgba(224, 224, 224, .5) ;
+        box-shadow: 0px 0px 5px black;
       }
       .card:hover {
         border-color: white;

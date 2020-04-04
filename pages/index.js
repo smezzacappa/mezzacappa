@@ -1,16 +1,16 @@
 import React from 'react'
 import Head from 'next/head'
-import Nav from '../components/nav'
+import Navigation from '../components/nav'
 
 const Home = () => (
-  <div className="container">
+  <div>
     <Head>
       <title>Steven Mezzacappa</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <Nav />
-
+    <Navigation />
+<div className="container">
     <div className="hero">
       <h1 className="title">Steven Mezzacappa</h1>
       <p className="description">
@@ -24,7 +24,7 @@ const Home = () => (
         </div>
       </div>
     </div>
-
+</div>
     <style jsx>{`
 
    :global(body){
@@ -41,9 +41,12 @@ const Home = () => (
         width: 100%;
         color: #333;
         letter-spacing: 2px;
+        text-shadow: 0px 0px 8px white;
       }
     .hero p{
         font-size: 1.5em !important;
+        color: #ffffff;
+        text-shadow: 0px 0px 8px black;
       }
       .title {
         margin: 0;
@@ -51,10 +54,15 @@ const Home = () => (
         padding-top: 80px;
         line-height: 1.15;
         font-size: 56px;
+        font-weight: 700;
       }
       .title,
       .description {
         text-align: center;
+      }
+      code{
+        color: white!important;
+
       }
       .row {
         max-width: 880px;
@@ -68,6 +76,8 @@ const Home = () => (
         border-style: solid;
         padding: 15px;
         border-radius: 5px;
+        text-align: center;
+        box-shadow: 0px 0px 5px black;
       }
       // .card {
       //   padding: 18px 18px 24px;
@@ -91,14 +101,17 @@ const Home = () => (
       //   font-size: 13px;
       //   color: #333;
       // }
-      @media only screen and (max-width: 600px){
+      @media only screen and (max-width: 685px){
         .hero {
           width: 100%;
           color: #333;
           letter-spacing: 2px;
+          padding: 20px;
+          text-align: center;
         }
       .hero p{
           font-size: 1.5em !important;
+          text-align: center;
         }
         .title {
           margin: 0;
@@ -106,6 +119,7 @@ const Home = () => (
           padding-top: 80px;
           line-height: 1.15;
           font-size: 56px;
+          text-align: center;
         }
         .title,
         .description {
@@ -117,6 +131,7 @@ const Home = () => (
           padding: 15px;
           border-radius: 5px;
           width: 75%;
+          text-align: center;
       }
     `}</style>
   </div>

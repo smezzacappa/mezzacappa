@@ -9,115 +9,115 @@ class Skills extends React.Component{
     
     setBg(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxOne').style.borderColor = "#" + randomColor;
+    document.getElementById('boxOne').style.backgroundColor = "#" + randomColor;
   }
   setBgA(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwo').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwo').style.backgroundColor = "#" + randomColor;
   }
   setBgB(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxThree').style.borderColor = "#" + randomColor;
+    document.getElementById('boxThree').style.backgroundColor = "#" + randomColor;
   }
   setBgC(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxFour').style.borderColor = "#" + randomColor;
+    document.getElementById('boxFour').style.backgroundColor = "#" + randomColor;
   }
   setBgD(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxFive').style.borderColor = "#" + randomColor;
+    document.getElementById('boxFive').style.backgroundColor = "#" + randomColor;
   }
   setBgE(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxSix').style.borderColor = "#" + randomColor;
+    document.getElementById('boxSix').style.backgroundColor = "#" + randomColor;
   }
   setBgF(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxSeven').style.borderColor = "#" + randomColor;
+    document.getElementById('boxSeven').style.backgroundColor = "#" + randomColor;
   }
   setBgG(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxEight').style.borderColor = "#" + randomColor;
+    document.getElementById('boxEight').style.backgroundColor = "#" + randomColor;
   }
   setBgH(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxNine').style.borderColor = "#" + randomColor;
+    document.getElementById('boxNine').style.backgroundColor = "#" + randomColor;
   }
   setBgI(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTen').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTen').style.backgroundColor = "#" + randomColor;
   }
   setBgJ(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxEleven').style.borderColor = "#" + randomColor;
+    document.getElementById('boxEleven').style.backgroundColor = "#" + randomColor;
   }
   setBgK(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwelve').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwelve').style.backgroundColor = "#" + randomColor;
   }
     setBgL(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxThirteen').style.borderColor = "#" + randomColor;
+    document.getElementById('boxThirteen').style.backgroundColor = "#" + randomColor;
   }
   setBgM(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxFourteen').style.borderColor = "#" + randomColor;
+    document.getElementById('boxFourteen').style.backgroundColor = "#" + randomColor;
   }
   setBgN(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxFifteen').style.borderColor = "#" + randomColor;
+    document.getElementById('boxFifteen').style.backgroundColor = "#" + randomColor;
   }
   setBgO(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxSixteen').style.borderColor = "#" + randomColor;
+    document.getElementById('boxSixteen').style.backgroundColor = "#" + randomColor;
   }
   setBgP(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxSeventeen').style.borderColor = "#" + randomColor;
+    document.getElementById('boxSeventeen').style.backgroundColor = "#" + randomColor;
   }
   setBgQ(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxEighteen').style.borderColor = "#" + randomColor;
+    document.getElementById('boxEighteen').style.backgroundColor = "#" + randomColor;
   }
   setBgR(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxNineteen').style.borderColor = "#" + randomColor;
+    document.getElementById('boxNineteen').style.backgroundColor = "#" + randomColor;
   }
   setBgS(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwenty').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwenty').style.backgroundColor = "#" + randomColor;
   }
   setBgT(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwentyOne').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwentyOne').style.backgroundColor = "#" + randomColor;
   }
   setBgU(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwentyTwo').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwentyTwo').style.backgroundColor = "#" + randomColor;
   }
   setBgV(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwentyThree').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwentyThree').style.backgroundColor = "#" + randomColor;
   }
   setBgW(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwentyFour').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwentyFour').style.backgroundColor = "#" + randomColor;
   }
   setBgX(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwentyFive').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwentyFive').style.backgroundColor = "#" + randomColor;
   }
   setBgY(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwentySix').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwentySix').style.backgroundColor = "#" + randomColor;
   }
   setBgZ(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwentySeven').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwentySeven').style.backgroundColor = "#" + randomColor;
   }
   setBgAA(){
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.getElementById('boxTwentyEight').style.borderColor = "#" + randomColor;
+    document.getElementById('boxTwentyEight').style.backgroundColor = "#" + randomColor;
   }
   
 
@@ -277,7 +277,7 @@ class Skills extends React.Component{
         letter-spacing: 2px;
       }
       p {
-      font-size: 1.5em !important;
+      font-size: 1.2em !important;
       }
       .title {
         margin: 0;
@@ -285,13 +285,17 @@ class Skills extends React.Component{
         padding-top: 80px;
         line-height: 1.15;
         font-size: 56px;
-        
+        font-weight: 700;
       }
       .title,
       .description {
         text-align: center;
-        
+       
       }
+       code{
+         color: white;
+         text-shadow: 0px 0px 8px black;
+       }
     //  .p{
     //     font-size: 2em !important;
     //   }
@@ -311,6 +315,7 @@ class Skills extends React.Component{
         border: 1px solid #9b9b9b;
         border-radius: 5px;
         background: rgba(224, 224, 224, .5) ;
+        box-shadow: 0px 0px 5px black;
       }
       
       .card h3 {
@@ -323,6 +328,7 @@ class Skills extends React.Component{
         padding: 12px 0 0;
         font-size: 17px;
         color: #333;
+        font-weight: 700;
       }
       #boxOne{
           text-align: center;

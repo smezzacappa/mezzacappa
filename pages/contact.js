@@ -52,16 +52,24 @@ const Contact = () => (
         color: #333;
         letter-spacing: 2px;
       }
+      .hero p{
+        font-size: 1.5em;
+      }
       .title {
         margin: 0;
         width: 100%;
         padding-top: 80px;
         line-height: 1.15;
         font-size: 56px;
+        font-weight:700;
       }
       .title,
       .description {
         text-align: center;
+      }
+      code{
+        text-shadow: 0px 0px 8px black;
+        color:white;
       }
       .row {
         max-width: 880px;
@@ -77,6 +85,8 @@ const Contact = () => (
         text-decoration: none;
         color: #434343;
         border: 1px solid #9b9b9b;
+        background: rgba(224, 224, 224, .5) ;
+        box-shadow: 0px 0px 5px black;
       }
       .card:hover {
         border-color: white;
