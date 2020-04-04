@@ -62,6 +62,7 @@ function Navigation(){
         padding: 6px 8px;
         font-weight: 400;
         // color: black!important;
+      
       }
       a {
         color: black!important;
