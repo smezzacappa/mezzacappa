@@ -7,9 +7,10 @@ const About = () => (
     <Head>
       <title>Steven Mezzacappa</title>
       <link rel="icon" href="/favicon.ico" />
-    </Head>
+    </Head> 
+     <Nav />
 <div className="container">
-    <Nav />
+  
 
     <div className="hero">
       <h1 className="title">About Me</h1>
