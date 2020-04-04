@@ -25,7 +25,7 @@ function Navigation(){
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
   </Head>
   
-  <Navbar expand="sm">
+  <Navbar expand="sm" fixed="top">
   <Navbar.Toggle aria-controls="basic-navbar-nav " />
   <Navbar.Collapse id="basic-navbar-nav mr-auto">
     <Nav className="ml-auto">
@@ -57,15 +57,25 @@ function Navigation(){
       // nav > ul {
       //   padding: 4px 16px;
       // }
+      
       li {
         display: flex;
-        padding: 6px 8px;
+        padding: 5px;
         // color: black!important;
+        background-color: rgba(224, 224, 224, .5);
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 5px;
+      }
+      li:hover{
+        background-color: white;
       }
       a {
         color: black!important;
         text-decoration: none;
         font-size: 17px;
+        text-align: center;
+        padding: 5px;
       }
       
     `}</style>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import NavBarBot from '../components/footer';
 
 
   
@@ -260,7 +261,7 @@ class Skills extends React.Component{
     </div> 
         </div>
     </div>
-
+<NavBarBot/>
     <style jsx>{`
     :global(body){
       background: url('/static/images/background.jpeg');
@@ -336,6 +337,13 @@ class Skills extends React.Component{
       #boxOne:hover {
         border-color: white;
       }
+      @media only screen and (max-width:775px){
+        .hero{
+          padding-bottom: 2em!important;
+        }
+        .card{
+          margin-bottom:1.5em!important;
+        }
     `}</style>
   </div>
         )

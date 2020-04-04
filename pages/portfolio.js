@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import NavBarBot from '../components/footer';
 
 
 const Portfolio = () => (
@@ -59,7 +60,7 @@ const Portfolio = () => (
         </a>
         </div> 
     </div>
-
+<NavBarBot/>
     <style jsx>{`
     
     :global(body){
@@ -133,6 +134,13 @@ const Portfolio = () => (
         font-size: 17px;
         color: #333;
       }
+      @media only screen and (max-width:775px){
+        .hero{
+          padding-bottom: 2em!important;
+        }
+        .card{
+          margin-bottom:1.5em!important;
+        }
     `}</style>
   </div>
 )

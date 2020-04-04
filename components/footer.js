@@ -9,7 +9,7 @@ const NavBarBot = () =>(
         <Head>
         <link rel="stylesheet" href="https://use.typekit.net/idq7mvl.css"/>
         </Head>
-    <Navbar  bg="dark" variant="dark" fixed="bottom" className="Links">
+    <Navbar  bg="dark" variant="dark" fixed="sticky" className="Links">
     <Container className="NavIcons">
     <a href="https://www.twitter.com/s_mezzacappa/" id="twitter"><FaTwitter/></a>
     <a href="https://www.github.com/smezzacappa" id="github"><FaGithub/></a>
