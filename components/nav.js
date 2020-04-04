@@ -8,12 +8,12 @@ import Nav from 'react-bootstrap/Nav'
 
 
 const links = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/skills', label: 'Skills' },
-  { href: '/portfolio', label: 'Porfolio' },
-  { href: '/contact', label: 'Contact' },
-  { href: 'https://github.com/smezzacappa', label: 'GitHub' },
+  { href: '/', label: '{ Home }' },
+  { href: '/about', label: '{ About }' },
+  { href: '/skills', label: '{ Skills }' },
+  { href: '/portfolio', label: '{ Portfolio }' },
+  { href: '/contact', label: '{ Contact }' },
+  { href: 'https://github.com/smezzacappa', label: '{ GitHub }' },
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
