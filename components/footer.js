@@ -24,6 +24,7 @@ const NavBarBot = () =>(
     font-style: normal!important;
     color: #ffffff;
    font-size: 1em;
+   letter-spacing: 3px;
    }
    #twitter{
        font-size: 1.5em;
