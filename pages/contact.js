@@ -2,8 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 
-const Home = () => (
-  <div className="container">
+const Contact = () => (
+  <div>
     <Head>
       <title>Steven Mezzacappa</title>
       <link rel="icon" href="/favicon.ico" />
@@ -12,22 +12,33 @@ const Home = () => (
     <Nav />
 
     <div className="hero">
-      <h1 className="title">Steven Mezzacappa</h1>
+      <h1 className="title">Contact</h1>
       <p className="description">
-        <code>Front End Web Developer</code> 
+        <code>Here's How To Reach Me</code> 
       </p>
+
       <div className="row">
-        <div className="container" id="subtitle">
-        <h1>
-          Coming Soon To A Browser Near You.
-        </h1>
-        </div>
+        {/* <a href="./about" className="card">
+          <h3>What I Do &rarr;</h3>
+          <p>Learn more about Next.js in the documentation.</p>
+        </a>
+        <a href="./portfolio" className="card">
+          <h3>What I've Done&rarr;</h3>
+          <p>Learn about Next.js by following an interactive tutorial!</p>
+        </a> */}
+        <a
+          href="mailto:mezzacappa.steven@gmail.com"
+          className="card"
+        >
+          <h3>How To Reach Me&rarr;</h3>
+          <p>Click This Box To Send Me An Email!</p>
+        </a>
       </div>
     </div>
 
     <style jsx>{`
-
-   :global(body){
+    
+    :global(body){
       background: url('/static/images/background.jpeg');
       width: 100%;
   height: 90vh;
@@ -36,14 +47,10 @@ const Home = () => (
   background-size: cover;
   background-attachment: fixed;
      }
-  
       .hero {
         width: 100%;
         color: #333;
         letter-spacing: 2px;
-      }
-    .hero p{
-        font-size: 1.5em !important;
       }
       .title {
         margin: 0;
@@ -63,35 +70,30 @@ const Home = () => (
         flex-direction: row;
         justify-content: space-around;
       }
-      #subtitle{
-        border: black;
-        border-style: solid;
-        padding: 15px;
-      }
       .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
+        padding: 18px 25px 18px;
+        width: 350px;
+        text-align: center;
         text-decoration: none;
         color: #434343;
         border: 1px solid #9b9b9b;
       }
       .card:hover {
-        border-color: #067df7;
+        border-color: white;
       }
       .card h3 {
         margin: 0;
         color: #067df7;
-        font-size: 18px;
+        font-size: 20px;
       }
       .card p {
         margin: 0;
         padding: 12px 0 0;
-        font-size: 13px;
+        font-size: 17px;
         color: #333;
       }
     `}</style>
   </div>
 )
 
-export default Home
+export default Contact
