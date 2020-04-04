@@ -60,6 +60,7 @@ function Navigation(){
       li {
         display: flex;
         padding: 6px 8px;
+        font-weight: 400;
         // color: black!important;
       }
       a {
