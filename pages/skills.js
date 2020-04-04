@@ -295,6 +295,7 @@ class Skills extends React.Component{
       }
        code{
          color: white;
+         font-size: 21px;
          text-shadow: 0px 0px 8px black;
        }
     //  .p{
