@@ -11,8 +11,8 @@ const NavBarBot = () =>(
         </Head>
     <Navbar  bg="dark" variant="dark" fixed="bottom" className="Links">
     <Container className="NavIcons">
-    <Nav.Link> <a href="https://www.twitter.com/s_mezzacappa/" id="twitter"><FaTwitter/></a></Nav.Link>
-    <Nav.Link> <a href="https://www.github.com/smezzacappa" id="github"><FaGithub/></a></Nav.Link>
+    <a href="https://www.twitter.com/s_mezzacappa/" id="twitter"><FaTwitter/></a>
+    <a href="https://www.github.com/smezzacappa" id="github"><FaGithub/></a>
     {/* <Nav.Link href="https://soundcloud.com/djguylewis"><FaSoundcloud/></Nav.Link> */}
     <Navbar.Brand> <a href="/" >Steven Mezzacappa </a></Navbar.Brand>
     </Container>
