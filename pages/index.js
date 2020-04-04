@@ -67,28 +67,56 @@ const Home = () => (
         border: black;
         border-style: solid;
         padding: 15px;
+        border-radius: 5px;
       }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
-        text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
-      }
-      .card:hover {
-        border-color: #067df7;
-      }
-      .card h3 {
-        margin: 0;
-        color: #067df7;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
-        color: #333;
+      // .card {
+      //   padding: 18px 18px 24px;
+      //   width: 220px;
+      //   text-align: left;
+      //   text-decoration: none;
+      //   color: #434343;
+      //   border: 1px solid #9b9b9b;
+      // }
+      // .card:hover {
+      //   border-color: #067df7;
+      // }
+      // .card h3 {
+      //   margin: 0;
+      //   color: #067df7;
+      //   font-size: 18px;
+      // }
+      // .card p {
+      //   margin: 0;
+      //   padding: 12px 0 0;
+      //   font-size: 13px;
+      //   color: #333;
+      // }
+      @media only screen and (max-width: 600px){
+        .hero {
+          width: 100%;
+          color: #333;
+          letter-spacing: 2px;
+        }
+      .hero p{
+          font-size: 1.5em !important;
+        }
+        .title {
+          margin: 0;
+          width: 100%;
+          padding-top: 80px;
+          line-height: 1.15;
+          font-size: 56px;
+        }
+        .title,
+        .description {
+          text-align: center;
+        }
+        #subtitle{
+          border: black;
+          border-style: solid;
+          padding: 15px;
+          border-radius: 5px;
+          width: 75%;
       }
     `}</style>
   </div>
