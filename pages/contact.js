@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 
+import NavBarBot from '../components/footer'
+
 const Contact = () => (
   <div>
     <Head>
@@ -35,7 +37,7 @@ const Contact = () => (
         </a>
       </div>
     </div>
-
+<NavBarBot/>
     <style jsx>{`
     
     :global(body){

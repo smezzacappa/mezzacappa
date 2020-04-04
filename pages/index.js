@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Navigation from '../components/nav'
+import NavBarBot from '../components/footer'
 
 const Home = () => (
   <div>
@@ -25,6 +26,7 @@ const Home = () => (
       </div>
     </div>
 </div>
+<NavBarBot/>
     <style jsx>{`
 
    :global(body){

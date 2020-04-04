@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import NavBarBot from '../components/footer'
 
 const About = () => (
   <div>
@@ -59,6 +60,7 @@ const About = () => (
     </div>
     </div>
     </div>
+    <NavBarBot/>
     <style jsx>{`
      :global(body){
         background: url('/static/images/background.jpeg');
