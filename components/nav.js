@@ -22,10 +22,10 @@ const links = [
 function Navigation(){
   return <div>
 <Head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossOrigin="anonymous"></link>
   </Head>
   
-  <Navbar expand="sm" >
+  <Navbar expand="md" >
   <Navbar.Toggle aria-controls="basic-navbar-nav " />
   <Navbar.Collapse id="basic-navbar-nav mr-auto">
     <Nav className="ml-auto">
