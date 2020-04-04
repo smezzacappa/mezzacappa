@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import Button from 'react-bootstrap/Button'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
 
-const logo = [
-  { href: '/', label: 'ZEIT' },
-]
+
 const links = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
@@ -24,39 +25,38 @@ function Navigation(){
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
   </Head>
   
-<nav className="navbar navbar-expand-sm navbar-light">
-<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul className="navbar-nav ml-auto">
+  <Navbar expand="sm">
+  <Navbar.Toggle aria-controls="basic-navbar-nav " />
+  <Navbar.Collapse id="basic-navbar-nav mr-auto">
+    <Nav className="ml-auto">
+    <ul className="navbar-nav mr-auto">
       {links.map(({ key, href, label }) => (
         <li className="nav-item" key={key}>
           <a className="nav-link" href={href}>{label}</a>
         </li>
       ))}
     </ul>
-</div>
+    </Nav>
+    </Navbar.Collapse>
+</Navbar>
     <style jsx>{`
       :global(body) {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
           Helvetica, sans-serif;
       }
-      
-      nav {
-        text-align: center;
-        display: flex !important;
-        justify-content: flex-end!important;
-       
-      }
-      ul {
-        display: flex;
-        justify-content: flex-end;
-      }
-      nav > ul {
-        padding: 4px 16px;
-      }
+      // nav {
+      //   text-align: center;
+      //   display: flex !important;
+      //   justify-content: flex-start!important;
+      // }
+      // ul {
+      //   display: flex;
+      //   justify-content: flex-end;
+      // }
+      // nav > ul {
+      //   padding: 4px 16px;
+      // }
       li {
         display: flex;
         padding: 6px 8px;
@@ -69,8 +69,9 @@ function Navigation(){
       }
       
     `}</style>
-  </nav>
-  </div>
+ 
+</div>
+ 
 }
 
 export default Navigation

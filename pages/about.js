@@ -10,8 +10,6 @@ const About = () => (
     </Head> 
      <Nav />
 <div className="container">
-  
-
     <div className="hero">
       <h1 className="title">About Me</h1>
       <p className="description">
@@ -106,6 +104,7 @@ const About = () => (
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        line-height: auto;
       }
       .card {
         padding: 18px 18px 24px;
