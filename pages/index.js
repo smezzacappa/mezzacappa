@@ -94,14 +94,22 @@ const Home = () => (
       .hero p{
           font-size: 1em !important;
           text-align: center;
+          margin-bottom: 0!important;
         }
         code{
           font-size: 1.2em;
         }
+        .row {
+          max-width: 880px;
+          margin: 40px auto 40px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
         .title {
           margin: 0;
           width: 100%;
-          padding-top: 80px;
+          padding-top: 0;
           line-height: 1.15;
           font-size: 48px;
           text-align: center;
@@ -113,11 +121,11 @@ const Home = () => (
         #subtitle{
           border: black;
           border-style: solid;
-          // padding: 15px;
+          padding: 15px;
           border-radius: 5px;
           width: 75%;
           text-align: center;
-          margin-bottom: 1em;
+          margin-bottom: 2em;
       }
      
     `}</style>
