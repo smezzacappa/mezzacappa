@@ -92,15 +92,18 @@ const Home = () => (
           text-align: center;
         }
       .hero p{
-          font-size: 1.5em !important;
+          font-size: 1em !important;
           text-align: center;
+        }
+        code{
+          font-size: 1.2em;
         }
         .title {
           margin: 0;
           width: 100%;
           padding-top: 80px;
           line-height: 1.15;
-          font-size: 56px;
+          font-size: 48px;
           text-align: center;
         }
         .title,
@@ -110,11 +113,13 @@ const Home = () => (
         #subtitle{
           border: black;
           border-style: solid;
-          padding: 15px;
+          // padding: 15px;
           border-radius: 5px;
           width: 75%;
           text-align: center;
+          margin-bottom: 1em;
       }
+     
     `}</style>
   </div>
 )
